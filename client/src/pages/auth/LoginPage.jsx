@@ -12,7 +12,7 @@ const LoginPage = () => {
     email: "",
     password: "",
     role: "Student",
-  });
+  })
   const [errors, setErrors] = useState({});
   const navigate = useNavigate();
 
